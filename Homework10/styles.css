@@ -1,6 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.container-box{
+    width: 60vw;
+    height: 50vh;
+}
 
 main{
-    height: 50%;
+    height: 45%;
 }
 
 aside{
@@ -8,7 +18,7 @@ aside{
 }
 
 footer{
-    height: 50%;
+    height: 55%;
     overflow:hidden;
 }
 
@@ -19,5 +29,5 @@ article{
 
 main > h1{
     margin-bottom: 0;
-    height: 100%;
+    width: 28%;
 }
