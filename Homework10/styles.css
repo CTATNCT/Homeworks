@@ -1,0 +1,39 @@
+
+main{
+    background-color: blueviolet;
+    height: 50%;
+}
+
+aside{
+    background-color: yellowgreen;
+    min-width: 30%;
+}
+
+footer{
+    background-color: coral;
+    height: 50%;
+    overflow:hidden;
+}
+
+article{
+    background-color: rgb(126, 26, 26);
+    min-height: 30vh;
+}
+
+main > h1{
+    margin-bottom: 0;
+    height: 100%;
+}
+
+main > h1:nth-child(1){
+    background-color: aqua;
+    
+}
+
+main > h1:nth-child(2){
+    background-color: rgb(0, 255, 106);
+}
+
+main > h1:nth-child(3){
+    background-color: rgb(23, 202, 53);
+}
